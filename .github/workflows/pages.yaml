@@ -17,8 +17,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "23" # Use the Node.js version your project requires
-          cache: "pnpm"
+          node-version: "23.3.0" # Use the specific Node.js version 23.3.0
 
       - name: Install pnpm
         run: npm install -g pnpm
